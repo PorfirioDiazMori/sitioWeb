@@ -1,0 +1,48 @@
+/*	CONTENT BLOCK 1-4
+/*----------------------------------------------------*/
+
+.content-1-4 {
+	padding: 0px;
+	position: relative;
+	width: 100%;
+	background-color: #4F2005;
+}
+
+.content-1-4 .image-container {
+	position: absolute;
+	height: 100%;
+	padding: 0px;
+	top: 0px;
+}
+
+.content-1-4 .image-container .background-image-holder {
+	background: #000 url('../images/Foto5.jpg') no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+.content-1-4 .content {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.content-1-4 h4 {
+	margin-bottom: 32px;
+	color: #fff;
+	text-align: justify;
+}
+
+/*	CONTENT BLOCK 1-4 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+
+	.content-1-4 .image-container {
+		display: none;
+	}
+
+}
