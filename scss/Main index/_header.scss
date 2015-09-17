@@ -15,6 +15,10 @@
     height: 80px;
 }
 
+#header-1 .main-nav .logo{
+	height: 80px;
+}
+
 #header-1 .main-nav .navbar-toggle {
 	float: left;
 	margin-right: 0;
@@ -116,11 +120,6 @@
 }
 
 
-#header-1 .brand-img {
-	max-width: 150px;
-	padding: 20px 0;
-}
-
 .headroom {
 	position: fixed;
 	top: 0;
@@ -146,7 +145,7 @@
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  	  	
+
 	#header-1 .brand-img {
 		float: center;
 		margin: 0 auto;
@@ -155,7 +154,7 @@
 	#header-1 .navbar-fixed-top {
 		position: relative;
 	}
-	
+
 	#header-1 .main-nav .nav .nav-item a{
 		color: red;
 	}
@@ -170,32 +169,32 @@
 		position: absolute;
 		background: #4F2605;
 	}
-	
+
 	#header-1 .navbar-collapse .nav {
 		margin: 0;
 	}
-	
+
 	#header-1 .main-nav .nav .dropdown-menu:before {
 		display: none;
 	}
-	
+
 	#header-1 .navbar-fixed-top .navbar-collapse,
 	#header-1 .navbar-fixed-bottom .navbar-collapse {
 		max-height: inherit;
 	}
-  
+
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  
-	
-  
-  
+
+
+
+
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  
-	
-  
-  
+
+
+
+
 }

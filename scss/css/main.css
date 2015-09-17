@@ -2,10 +2,10 @@
 /*----------------------------------------------------*/
 #header-1 {
   position: fixed;
+  z-index: 999;
   width: 100%;
   background: none;
-  min-height: 80px;
-  z-index: 9999; }
+  min-height: 80px; }
 
 #header-1 .main-nav {
   background-color: #4F2005;
@@ -19,9 +19,6 @@
   position: absolute;
   right: 20px;
   top: 20px; }
-
-#header-1 .main-nav .logo {
-  height: 80px; }
 
 #header-1 .main-nav .navbar-toggle:focus {
   outline: none; }
@@ -42,8 +39,7 @@
   text-transform: uppercase;
   font-size: 15px;
   color: #fff;
-  color: darkgray;
-  border: none; }
+  color: darkgray; }
 
 #header-1 .main-nav .nav .nav-item.active a {
   color: white;
@@ -130,11 +126,12 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   #header-1 .brand-img {
-    float: center;
+    float: none;
     margin: 0 auto;
     text-align: center; }
 
   #header-1 .main-nav .nav .nav-item a {
+    color: red;
     text-align: left;
     width: 120px; }
 
@@ -149,7 +146,8 @@
     width: 100%;
     top: 80px;
     position: absolute;
-    background: #4F2605; }
+    background: #4F2605;
+    z-index: 999; }
 
   #header-1 .navbar-collapse .nav {
     margin: 0; }
@@ -162,10 +160,37 @@
     max-height: inherit; } }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+/*	PROMO BLOCK 3
+/*----------------------------------------------------*/
+.promo-3 {
+  background: url("../images/Hero.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 90%;
+  background-attachment: fixed; }
+
+.promo-3 h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white; }
+
+.promo-3 h2 {
+  font-weight: 600;
+  color: #ffffff; }
+
+.promo-3 a {
+  margin-top: 40px; }
+
+/*	PROMO BLOCK 3 MEDIA QUERIES
+/*----------------------------------------------------*/
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
 /*	CONTENT BLOCK 3-7
 /*----------------------------------------------------*/
 .content-3-7 .underlined-title {
-  padding-top: 70px; }
+  padding-bottom: 0; }
 
 /*	CONTENT BLOCK 3-7 MEDIA QUERIES
 /*----------------------------------------------------*/
@@ -174,14 +199,59 @@
 /* Large Devices, Wide Screens */
 /*	CONTENT BLOCK 1-1
 /*----------------------------------------------------*/
-.construccion {
-  background: url("../images/construccion.jpg") center no-repeat;
-  min-height: 300px; }
+.content-1-1 {
+  background: url("../images/Foto3.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.content-1-1 .container {
+  margin-top: 380px; }
 
 .content-1-1 h1 {
   text-transform: uppercase;
   font-weight: 300; }
 
+/*	CONTENT BLOCK 1-4
+/*----------------------------------------------------*/
+.content-1-4 {
+  padding: 0px;
+  position: relative; }
+
+.content-1-4 .image-container {
+  position: absolute;
+  height: 100%;
+  padding: 0px;
+  top: 0px; }
+
+.content-1-4 .image-container .background-image-holder {
+  background: #000 url("../images/Foto6.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+
+.content-1-4 .content {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.content-1-4 h1 {
+  margin-bottom: 32px;
+  color: #4F2005; }
+
+.content-1-4 p.lead {
+  margin-bottom: 20px;
+  color: #4F2005; }
+
+/*	CONTENT BLOCK 1-4 MEDIA QUERIES
+/*----------------------------------------------------*/
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .content-1-4 .image-container {
+    display: none; } }
 /*	FOOTER 1-4
 /*----------------------------------------------------*/
 .footer-1-4 {
@@ -219,41 +289,6 @@
   margin-top: 30px; }
 
 /*	FOOTER 1-4 MEDIA QUERIES
-/*----------------------------------------------------*/
-/* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-/* Large Devices, Wide Screens */
-/*	FOOTER 1-1
-/*----------------------------------------------------*/
-.footer-1-1 {
-  padding-top: 60px;
-  padding-bottom: 20px; }
-
-.footer-1-1 h3, .footer-1-1 h4, .footer-1-1 .lead, .footer-1-1 li {
-  color: #ffffff; }
-
-.footer-1-1 .brand-img {
-  width: 200px;
-  margin-bottom: 30px; }
-
-.footer-1-1 h4 {
-  margin-bottom: 20px; }
-
-.footer-1-1 ul {
-  list-style-type: none;
-  margin: 0 0 26px;
-  padding: 0; }
-
-.footer-1-1 ul li {
-  border-top: 1px solid #bdc3c7;
-  line-height: 19px;
-  padding: 6px 0; }
-
-.footer-1-1 li:first-child {
-  border-top: none;
-  padding-top: 1px; }
-
-/*	FOOTER 1-1 MEDIA QUERIES
 /*----------------------------------------------------*/
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
