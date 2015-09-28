@@ -8,16 +8,16 @@ jQuery(document).ready(function(){
 		$('#message').hide();
 
 		$.post(action, {
-			name: $('#name').val(),
-			email: $('#email').val(),
-			phone: $('#phone').val(),
-			comments: $('#comments').val(),
+			Nombre: $('#name').val(),
+			Email: $('#email').val(),
+			Telefono: $('#phone').val(),
+			Comentarios: $('#comments').val(),
 		},
 			function(data){
 				document.getElementById('message').innerHTML = data;
 				$('#message').slideDown('slow');
 				$('#submit').removeAttr('disabled');
-				if(data.match('success') != null) $('#contactform').slideUp('slow');
+				if(data.match('success') !== null) $('#contactform').slideUp('slow');
 
 			}
 		);
