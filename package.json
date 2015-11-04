@@ -1,0 +1,29 @@
+{
+  "name": "don-porfirio",
+  "version": "1.0.0",
+  "description": "sitio web porfirio diaz",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PorfirioDiazMori/sitioWeb.git"
+  },
+  "keywords": [
+    "jade",
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "LuigiFleed2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PorfirioDiazMori/sitioWeb/issues"
+  },
+  "homepage": "https://github.com/PorfirioDiazMori/sitioWeb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
