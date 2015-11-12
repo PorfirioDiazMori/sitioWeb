@@ -1242,12 +1242,14 @@ fieldset[disabled] .form-control {
 /*	CONTENT BLOCK 1-1
 /*----------------------------------------------------*/
 .content-1-1 {
-  background: url("../img/Foto3.jpg") center top no-repeat;
+  background: url("../img/Foto3.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed; }
+  height: 100px;
+  background-position-y: 75px;
+  background-attachment: fixed}
 
 .content-1-1 .container {
   margin-top: 380px; }
@@ -1258,7 +1260,7 @@ fieldset[disabled] .form-control {
 
 @media (max-width: 767px) {
   .content-1-1 {
-    background-attachment: none;}
+    background-attachment: scroll;}
 }
 /*	CONTENT BLOCK 1-4
 /*----------------------------------------------------*/
@@ -1297,7 +1299,7 @@ fieldset[disabled] .form-control {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .content-1-4 .image-container {
-    background: #000 url("../img/Foto6.jpg") no-repeat center top;
+    background: #000 url("../img/Foto6.jpg") no-repeat top top;
     -webkit-background-size: none;
     -moz-background-size: none;
     -o-background-size: none;
