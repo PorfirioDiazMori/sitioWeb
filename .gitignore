@@ -39,3 +39,5 @@ config.codekit
 *.css.map
 
 node_modules
+.publish
+dist
