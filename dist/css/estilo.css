@@ -1210,6 +1210,20 @@ fieldset[disabled] .form-control {
 .promo-3 a {
   margin-top: 40px; }
 
+@media (max-width: 767px) {
+  .promo-3 h1 {
+      font-size: 30px;
+      padding-top: 50px;
+}
+  .promo-3{
+    background: url("../img/Hero.jpg") center top no-repeat;
+    -webkit-background-size: none;
+    -moz-background-size: none;
+    -o-background-size: none;
+    height: 100px;
+    background-attachment: none;
+  }
+}
 /*	PROMO BLOCK 3 MEDIA QUERIES
 /*----------------------------------------------------*/
 /* Small Devices, Tablets */
@@ -1228,12 +1242,14 @@ fieldset[disabled] .form-control {
 /*	CONTENT BLOCK 1-1
 /*----------------------------------------------------*/
 .content-1-1 {
-  background: url("../img/Foto3.jpg") center top no-repeat;
+  background: url("../img/Foto3.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed; }
+  height: 100px;
+  background-position-y: 75px;
+  background-attachment: fixed}
 
 .content-1-1 .container {
   margin-top: 380px; }
@@ -1242,6 +1258,10 @@ fieldset[disabled] .form-control {
   text-transform: uppercase;
   font-weight: 300; }
 
+@media (max-width: 767px) {
+  .content-1-1 {
+    background-attachment: scroll;}
+}
 /*	CONTENT BLOCK 1-4
 /*----------------------------------------------------*/
 .content-1-4 {
@@ -1279,7 +1299,14 @@ fieldset[disabled] .form-control {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .content-1-4 .image-container {
-    display: none; } }
+    background: #000 url("../img/Foto6.jpg") no-repeat top top;
+    -webkit-background-size: none;
+    -moz-background-size: none;
+    -o-background-size: none;
+    height: 100px;
+    background-attachment: none;}
+  }
+
 /*	FOOTER 1-4
 /*----------------------------------------------------*/
 .footer-1-4 {
@@ -1509,6 +1536,12 @@ fieldset[disabled] .form-control {
   text-align: justify;
   font-weight: 300; }
 
+@media (max-width: 767px) {
+.letra h4{
+    font-size: 16px;
+  }
+}
+
 /*	CONTENT BLOCK 3-7 MEDIA QUERIES
 /*----------------------------------------------------*/
 /* Small Devices, Tablets */
@@ -1550,24 +1583,30 @@ fieldset[disabled] .form-control {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .content-1-4 .image-container {
-    display: none; } }
+    display: none; }
+}
 /*	CONTENT BLOCK 1-1
 /*----------------------------------------------------*/
-.content-1-1 {
+.content-1-2 {
   background: url("../img/Foto2.jpg") center top no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: none; }
 
-.content-1-1 .container {
+.content-1-2 .container {
   margin-top: 380px; }
 
-.content-1-1 h1 {
+.content-1-2 h1 {
   text-transform: uppercase;
   font-weight: 300; }
 
+  @media (max-width: 767px) {
+    .content-1-2{
+      background-attachment: none;
+      }
+}
 /*	FOOTER 1-4
 /*----------------------------------------------------*/
 .footer-1-4 {
